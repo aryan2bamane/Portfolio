@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Tangerine&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+#intro {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  /* background-image: url('../assets/Welcome.png'); */
+  background: url('../assets/Welcome.png')   center ; 
+}
+.left,
+.right {
+  /* color: #fff; */
+  width: 50%;
+}
+.left {
+  padding: 0 10%;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  gap: 50px;
+}
+
+.intro-text {
+  font-size: 30px;
+}
+.name {
+  color: #3586ff;
+  font-size: 60px;
+  font-family: "Poppins", cursive;
+}
+
+.features {
+  font-size: 30px;
+  /* font-weight: 600; */
+  letter-spacing: 2px;
+}
+.your-website {
+  font-size: 50px;
+  color: #3586ff;
+}
+.left .first-letter {
+  font-size: 55px;
+  font-family: "Allura", cursive;
+  color: #3586ff;
+}
+
+
+
+.right img{
+  height: 500px;
+}
+
+.hireMeBtn {
+  width: 100px;
+  background-color: #3586ff;
+  color: #fff;
+  border: 0;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+
+}

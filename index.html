@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./assets/glasses.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO -->
+    <meta name="description" content="Aditya Madur's Portfolio" />
+    <meta name="keywords" content="web design, html, css, js, portfolio" />
+    <!-- Title -->
+    <title>Portfolio-Aryan Bamane</title>
+    
+    <!-- Font Goes Here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Belanosima&family=Inter:wght@400;500&family=Zeyada&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <p class="logo">A.</p>
+      <nav>
+        <ul>
+          <li><a href="#intro">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+        <a 
+        class="resumeBtn" href="/Front End Web Developer_2.pdf" 
+        title="Aryan Bamane's Resume"
+        download 
+        >My Resume</a>
+      </nav>
+    </header>
+    <!-- Main -->
+    <main>
+
+      <!-- Intro Section -->
+
+      <div id="intro">
+        <div class="left">
+          <div class="intro-wrapper">
+            <p class="intro-text">
+              Hello I'm <br />
+              <span class="name"> Aryan </span>
+              A Web-Developer
+            <br>
+              I can make <span class="your-website">Your Website </span>
+              <br />
+              <p class="features">
+                <span class="first-letter">S</span><span class="stunning">tunning</span> &
+                <span class="first-letter">F</span><span class="Fascinating">ascinating</span>
+              </p>
+            </p>
+          </div>
+          <button class="hireMeBtn" href="#contact">Hire me</button>
+        </div>
+        <div class="right">
+          <img src="./assets/person-working-from-home.webp" alt="" />
+        </div>
+      </div>
+
+      <!-- About Section -->
+
+      <div id="about">
+        <div class="label">About Me</div>
+        <div class="container">
+          <div class="about-left">
+            <p>
+              <span>"</span><br>
+              &nbsp;
+              &nbsp;
+              &nbsp;
+              &nbsp;
+              &nbsp;
+              I am a front-end web developer skilled in React and Node.js, known for creating visually appealing and interactive web applications. My expertise includes crafting engaging user interfaces and optimizing server-side rendering. I stay updated with the latest industry trends and prioritize clean, maintainable code. With a strong track record of successful projects, I am well-prepared to contribute effectively to any web development team 
+              <br>
+              <span class="inverted2"> " </span>
+            </p>
+          </div>
+          <div class="about-right">
+            <div class="label">My Skills</div>
+            <div class="center-skills">
+              <section class="skills-chart">
+                <div class="skill">
+                  <h3 class="skill__type">HTML / HTML5 & CSS</h3>
+                  <div class="skill__outer-bar">
+                    <div class="skill__inner-bar skill__inner-bar--90"></div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <h3 class="skill__type">Javascript / JQuery</h3>
+                  <div class="skill__outer-bar">
+                    <div class="skill__inner-bar skill__inner-bar--80"></div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <h3 class="skill__type">Photoshop</h3>
+                  <div class="skill__outer-bar">
+                    <div class="skill__inner-bar skill__inner-bar--70"></div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projects Section -->
+
+      <div id="projects">
+        <div class="label">My Work</div>
+        <p class="work__description">
+          Some of the Projects I've Done on my way to Full-Stack Web Developer
+        </p>
+        <div class="work_container">
+          <!-- Project 1 -->
+          <div class="work">
+            <div class="work__img-wrapper work__image1">
+              <img
+              class="lazy loading"
+              src="./assets/After.png"
+              data-src="After.png"
+              alt="Article Summarizer website"
+              />
+            </div>
+            <div class="work__project_info ">
+              <h3 class="project-title">OPEN-AI Article Summarizer</h3>
+              <p class="work__project-description1">
+                An open-source <strong> Article summarizer </strong> that transforms lengthy articles
+                into clear and concise summaries.
+              </p>
+              <p class="work__project-description2">
+                Made using Rapid API to fetch data through the API. Site is fully
+                functional and mobile responsive and gives accurate summary of
+                data from the link we provide.
+              </p>
+              <a href="https://deluxe-melba-b599eb.netlify.app/" target="_blank">
+  
+                <button class="linkToApp">Live Demo ↗</button>
+              </a>
+            </div>
+          </div>
+
+          <div class="work">
+            <!-- Project 2 -->
+            <div class="work__project_info ">
+              <h3 class="project-title">POKEDEX</h3>
+              <p class="work__project-description1">
+                A Fully-Functional <strong>POKEDEX</strong> Web-App that let's you find your favourite Pokemon, it's type, height, weight, and other things.
+              </p>
+              <p class="work__project-description2">
+                Made using Axios API to fetch data through free Pokemon API. Site is fully functional and also has search implementations, Debouncing, and many more.
+              </p>
+            </div>
+            <div class="work__img-wrapper work__image2">
+              <img
+                class="lazy loading"
+                src="./assets/PokeDex.png"
+                data-src="PokeDex.png"
+                alt="POKEDEX website"
+                />
+            </div>
+          </div>
+
+          <div class="work">
+            <!-- Project 3 -->
+            
+            <div class="work__img-wrapper work__image2">
+              <img
+                class="lazy loading"
+                src="./assets/todo.png"
+                alt="Todo web app website"
+                />
+            </div>
+            <div class="work__project_info ">
+              <h3 class="project-title">TO-DO WebApp</h3>
+              <p class="work__project-description1">
+                A functional <strong>TO-DO WebApp</strong> is a sleek and user-friendly web application designed to revolutionize the way you manage your tasks and stay organized.
+
+              </p>
+              <p class="work__project-description2">
+                Made using Simple Javavscript Functions. Site is fully functional and also has recover on reload and saving in local storage feature.
+              </p>
+              <a href="https://fancy-truffle-a2674d.netlify.app/" target="_blank">
+  
+                <button class="linkToApp">Live Demo ↗</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Me Section -->
+      <div id="contact">
+        <div class="label">Contact Me</div>
+        
+        <div class="contact_us_2">
+          <div class="responsive-container-block big-container">
+            <!-- <div class="blueBG"></div> -->
+            <div class="responsive-container-block container">
+              <form class="form-box">
+                <div class="container-block form-wrapper">
+                  
+                  <div class="responsive-container-block">
+                    <div
+                      class="responsive-cell-block wk-ipadp-6 wk-tab-12 wk-mobile-12 wk-desk-6"
+                      id="i10mt"
+                    >
+                      <p class="text-blk input-title">FIRST NAME</p>
+                      <input
+                        class="input"
+                        id="ijowk"
+                        name="FirstName"
+                        placeholder="Please enter first name..."
+                      />
+                    </div>
+                    <div
+                      class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12"
+                    >
+                      <p class="text-blk input-title">LAST NAME</p>
+                      <input
+                        class="input"
+                        id="indfi"
+                        name="Last Name"
+                        placeholder="Please enter last name..."
+                      />
+                    </div>
+                    <br>
+                    <div
+                      class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12"
+                    >
+                      <p class="text-blk input-title">EMAIL</p>
+                      <input
+                        class="input"
+                        id="ipmgh"
+                        name="Email"
+                        placeholder="Please enter email..."
+                      />
+                    </div>
+                    <div
+                      class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12"
+                    >
+                      <p class="text-blk input-title">PHONE NUMBER</p>
+                      <input
+                        class="input"
+                        id="imgis"
+                        name="PhoneNumber"
+                        placeholder="Please enter phone number..."
+                      />
+                    </div>
+                    <div
+                      class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12"
+                      id="i634i"
+                    >
+                      <p class="text-blk input-title">WHAT DO YOU HAVE IN MIND</p>
+                      <textarea
+                        class="textinput"
+                        id="i5vyy"
+                        placeholder="Please enter query..."
+                      ></textarea>
+                    </div>
+                  </div>
+                  <button class="submit-btn">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <!-- <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div> -->
+      </div>
+      <ul class="social-icon">
+        <li class="social-icon__item">
+          <a class="social-icon__link" href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+        <li class="social-icon__item">
+          <a class="social-icon__link" href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+        <li class="social-icon__item">
+          <a class="social-icon__link" href="#">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+        <li class="social-icon__item">
+          <a class="social-icon__link" href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+        <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+      </ul>
+      <p>&copy;2023 Aryan Bamane | All Rights Reserved</p>
+    </footer>
+
+    <!-- Javascript -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script type="module" src="/main.js"></script>
+    <script type="module" src="./components/skills.js"></script>
+  </body>
+</html>
