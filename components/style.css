@@ -47,6 +47,10 @@ header {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  position: sticky;
+  top: 0px;
+  background-color: #fff;
+  backdrop-filter: blur(150%);
 }
 
 main {
