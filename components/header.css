@@ -67,7 +67,7 @@
   }
 
   .resumeBtn {
-    color: black;
+    color: #fff;
     font-weight: 600;
     height: 50px;
     width: 150px;
@@ -118,8 +118,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
-  .active a {
+  .active a{
+    text-decoration: none;
+  }
+  .active nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .active nav ul a {
     text-decoration: none;
     color: #3586ff;
   }
@@ -133,7 +141,16 @@
     align-items: center;
     justify-content: space-between;
   }
-  nav .resumeBtn {
-    display: none;
+  .resumeBtn {
+    font-weight: 600;
+    height: 50px;
+    width: 30vw;
+    border-radius: 15px;
+    border: none;
+    background-color: #3586ff;
+    text-align: center;
+
+    color: #fff;
+    transition: 0.3s ease-in-out;
   }
 }

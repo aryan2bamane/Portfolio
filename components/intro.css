@@ -61,9 +61,16 @@
     font-size: 20px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #intro {
+    /* height: 60vh; */
+    background: #fff;
+  }
+}
 @media screen and (max-width: 768px) {
   #intro {
     height: 40vh;
+    background-color: #fff;
   }
 
   .right {

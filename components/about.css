@@ -1,4 +1,48 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    background: url("../assets/About\ Me.png") center;
+  }
+  #about .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .about-right,
+  .about-left {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 20px;
+  }
+
+  .about-left p {
+    /* position: relative; */
+    text-align: justify;
+    line-height: 40px;
+    font-size: 16px;
+  }
+
+  .about-left p span {
+    font-size: 50px;
+  }
+
+  .about-right {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1024px) {
   #about {
     display: flex;
     flex-direction: column;
@@ -55,9 +99,6 @@
     align-items: center;
     gap: 50px;
   }
-  .container .about-left {
-    padding: 0 20px;
-  }
   .about-left p span {
     font-size: 24px;
   }
@@ -67,9 +108,13 @@
     bottom: -30px;
   }
 
+  .about-left{
+    width: 100vw;
+    padding: 0 20px;
+  }
   .about-right {
     padding: 20px;
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
     flex-direction: column;
