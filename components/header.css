@@ -62,7 +62,7 @@
     width: 100%;
   }
 
- .hamburger {
+  .hamburger {
     display: none;
   }
 
@@ -93,8 +93,38 @@
     color: #3586ff;
     font-size: 50px;
   }
-  nav{
+  nav {
     display: none;
+  }
+  .expanded {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  .expanded .logo {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+  }
+
+  .expanded .hamburger {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+  }
+  .active {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .active a {
+    text-decoration: none;
+    color: #3586ff;
+  }
+  .active li {
+    list-style: none;
   }
   header .hamburger {
     height: 40px;
@@ -103,7 +133,7 @@
     align-items: center;
     justify-content: space-between;
   }
-  nav .resumeBtn{
+  nav .resumeBtn {
     display: none;
   }
 }

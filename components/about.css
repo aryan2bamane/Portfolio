@@ -14,7 +14,7 @@
   }
   .about-right,
   .about-left {
-    width: 50%;
+    width: 50vw;
     display: flex;
     align-items: center;
     padding: 0 5%;
@@ -24,7 +24,7 @@
   }
 
   .about-left p {
-    position: relative;
+    /* position: relative; */
     text-align: justify;
     line-height: 40px;
     font-size: 30px;
@@ -33,11 +33,7 @@
   .about-left p span {
     font-size: 50px;
   }
-  .inverted2 {
-    position: absolute;
-    right: 0;
-    bottom: -50px;
-  }
+
   .about-right {
     display: flex;
     align-items: center;
@@ -50,6 +46,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: #fff;
   }
 
   .container {

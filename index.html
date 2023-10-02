@@ -20,12 +20,13 @@
 
 <body>
   <!-- Header -->
-  <header>
+  <header
+  >
+  <!-- class="expanded" -->
     <p class="logo">A.</p>
-    <svg class="hamburger" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 16 16">
-      <path d="M 1 2 L 1 3 L 14 3 L 14 2 Z M 1 7 L 1 8 L 14 8 L 14 7 Z M 1 12 L 1 13 L 14 13 L 14 12 Z"></path>
-    </svg>
-    <nav>
+    <nav
+    >
+    <!-- class="active" -->
       <ul>
         <li><a href="#intro">Home</a></li>
         <li><a href="#about">About</a></li>
@@ -34,6 +35,9 @@
       </ul>
       <a class="resumeBtn" href="/Front End Web Developer_2.pdf" title="Aryan Bamane's Resume" download>My Resume</a>
     </nav>
+    <svg class="hamburger" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 16 16">
+      <path d="M 1 2 L 1 3 L 14 3 L 14 2 Z M 1 7 L 1 8 L 14 8 L 14 7 Z M 1 12 L 1 13 L 14 13 L 14 12 Z"></path>
+    </svg>
   </header>
   <!-- Main -->
   <main>
@@ -56,7 +60,9 @@
           </p>
           </p>
         </div>
-        <button class="hireMeBtn" href="#contact">Hire me</button>
+        <button class="hireMeBtn">
+          <a href="#contact">Hire me</a>
+        </button>
       </div>
       <div class="right">
         <img src="./assets/person-working-from-home.webp" alt="" />
@@ -70,7 +76,6 @@
       <div class="container">
         <div class="about-left">
           <p>
-            <span>"</span><br>
             &nbsp;
             &nbsp;
             &nbsp;
@@ -81,7 +86,7 @@
             server-side rendering. I stay updated with the latest industry trends and prioritize clean, maintainable
             code. With a strong track record of successful projects, I am well-prepared to contribute effectively to any
             web development team.
-            <span class="inverted2"> " </span>
+            
           </p>
         </div>
         <div class="about-right">
@@ -121,7 +126,7 @@
       </p>
       <div class="work_container">
         <!-- Project 1 -->
-        <div class="work">
+        <div class="work work1">
           <div class="work__img-wrapper work__image1">
             <img class="lazy loading" src="./assets/After.png" data-src="After.png" alt="Article Summarizer website" />
           </div>
@@ -143,7 +148,7 @@
           </div>
         </div>
 
-        <div class="work">
+        <div class="work work2">
           <!-- Project 2 -->
           <div class="work__project_info ">
             <h3 class="project-title">POKEDEX</h3>
@@ -155,13 +160,18 @@
               Made using Axios API to fetch data through free Pokemon API. Site is fully functional and also has search
               implementations, Debouncing, and many more.
             </p>
+            <a href="https://summar-ease.netlify.app/" target="_blank">
+
+              <button class="linkToApp">Live Demo ↗</button>
+            </a>
           </div>
           <div class="work__img-wrapper work__image2">
             <img class="lazy loading" src="./assets/PokeDex.png" data-src="PokeDex.png" alt="POKEDEX website" />
           </div>
+          
         </div>
 
-        <div class="work">
+        <div class="work work3">
           <!-- Project 3 -->
 
           <div class="work__img-wrapper work__image2">

@@ -10,9 +10,9 @@
     /* background-image: url('../assets/Welcome.png'); */
     background: url("../assets/Welcome.png") center;
   }
+
   .left,
   .right {
-    /* color: #fff; */
     width: 50%;
   }
   .left {
@@ -48,7 +48,7 @@
   }
 
   .right img {
-    height: 500px;
+    height: 30vw;
   }
 
   .hireMeBtn {
@@ -63,8 +63,7 @@
 }
 @media screen and (max-width: 768px) {
   #intro {
-    height: 50vh;
-    
+    height: 40vh;
   }
 
   .right {
@@ -102,4 +101,8 @@
     border-radius: 10px;
     font-size: 16px;
   }
+}
+#intro a {
+  text-decoration: none;
+  color: #fff;
 }

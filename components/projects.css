@@ -34,18 +34,11 @@
     color: black;
     font-weight: 600;
     height: 50px;
-    width: 150px;
+    width: 10vw;
     border-radius: 15px;
     border: none;
     background-color: #3586ff;
     margin: 10% 0;
-  }
-
-  .project-title {
-    color: #3586ff;
-  }
-  .work__description {
-    font-weight: 700;
   }
 
   #projects {
@@ -61,5 +54,62 @@
   }
 }
 @media screen and (max-width: 768px) {
-  
+  #projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+  }
+
+  .work__description {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .work_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .work {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .work1,
+  .work3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .work2 {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .work__img-wrapper img {
+    width: 70vw;
+  }
+
+  .linkToApp {
+    color: black;
+    font-weight: 600;
+    height: 5vh;
+    width: 40vw;
+    border-radius: 15px;
+    border: none;
+    background-color: #3586ff;
+    margin: 10% 0;
+  }
+}
+
+.project-title {
+  color: #3586ff;
+}
+.work__description {
+  font-weight: 700;
 }
