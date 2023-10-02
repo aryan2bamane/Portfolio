@@ -1,60 +1,67 @@
-.work_container {
-  width: 80vw;
-  text-align: center;
-  /* box-shadow: inset 10px 10px 0px 0px rgba(0, 0, 0, 0.1); */
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 30%;
-}
-.work {
-  display: flex;
-  align-items: center;
-  height: 30vh;
-}
+@media screen and (min-width: 768px) {
+  .work_container {
+    width: 80vw;
+    text-align: center;
+    /* box-shadow: inset 10px 10px 0px 0px rgba(0, 0, 0, 0.1); */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30%;
+  }
+  .work {
+    display: flex;
+    align-items: center;
+    height: 30vh;
+  }
 
-.work__img-wrapper {
-  width: 50%;
-}
+  .work__img-wrapper {
+    width: 50%;
+  }
 
-.work__img-wrapper img {
-  border-radius: 15%;
-  /* height: 350px; */
-  width: 400px;
-}
-.work__project_info {
-  padding: 0 10%;
-  width: 50%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.linkToApp {
-  color: black;
-  font-weight: 600;
-  height: 50px;
-  width: 150px;
-  border-radius: 15px;
-  border: none;
-  background-color: #3586ff;
-  margin: 10% 0;
-}
+  .work__img-wrapper img {
+    border-radius: 15%;
+    /* height: 350px; */
+    width: 400px;
+  }
+  .work__project_info {
+    padding: 0 10%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .linkToApp {
+    color: black;
+    font-weight: 600;
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    border: none;
+    background-color: #3586ff;
+    margin: 10% 0;
+  }
 
-.project-title {
-  color: #3586ff;
-}
-.work__description {
-  font-weight: 700;
-}
+  .project-title {
+    color: #3586ff;
+  }
+  .work__description {
+    font-weight: 700;
+  }
 
-#projects {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-evenly;
-  gap: 3rem;
-  width: 100%;
-  padding: 0;
-  background: url("../assets/projects.png") center;
-  padding: 0 0 100px 0;
+  #projects {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 3rem;
+    width: 100%;
+    padding: 0;
+    background: url("../assets/projects.png") center;
+    padding: 0 0 100px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  #projects{
+    display: none;
+  }
 }

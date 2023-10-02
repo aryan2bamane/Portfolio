@@ -1,82 +1,109 @@
 @import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
 
-.logo {
-  font-family: "Allura", cursive;
-  font-size: 55px;
-  /* color: #fff; */
-  padding: 0 50px;
-  font-weight: 600;
-  color: #3586ff;
-}
-nav {
-  padding: 0 50px;
-  display: flex;
-  align-items: center;
-  gap: 20px;
+@media (min-width: 768px) {
+  .logo {
+    font-family: "Allura", cursive;
+    font-size: 55px;
+    /* color: #fff; */
+    padding: 0 50px;
+    font-weight: 600;
+    color: #3586ff;
+  }
+  nav {
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  nav ul li {
+    list-style: none;
+  }
+  nav ul li a {
+    /* color: #fff; */
+    text-decoration: none;
+    font-size: 25px;
+  }
+
+  nav ul li a {
+    background-image: linear-gradient(to right, #3586ff, 50%, #000 50%);
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+
+  nav ul li a:before {
+    content: "";
+    background: #3586ff;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  nav ul li a:hover {
+    background-position: 0;
+  }
+
+  nav ul li a:hover::before {
+    width: 100%;
+  }
+
+ .hamburger {
+    display: none;
+  }
+
+  .resumeBtn {
+    color: black;
+    font-weight: 600;
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    border: none;
+    background-color: #3586ff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+  }
+  nav a {
+    text-decoration: none;
+  }
 }
 
-nav ul {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-}
-nav ul li {
-  list-style: none;
-}
-nav ul li a {
-  /* color: #fff; */
-  text-decoration: none;
-  font-size: 25px;
-}
-
-nav ul li a {
-  background-image: linear-gradient(to right, #3586ff, 50%, #000 50%);
-  background-size: 200% 100%;
-  background-position: -100%;
-  display: inline-block;
-  padding: 5px 0;
-  position: relative;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: all 0.3s ease-in-out;
-}
-
-nav ul li a:before {
-  content: "";
-  background: #3586ff;
-  display: block;
-  position: absolute;
-  bottom: -3px;
-  left: 0;
-  width: 0;
-  height: 3px;
-  transition: all 0.3s ease-in-out;
-}
-
-nav ul li a:hover {
-  background-position: 0;
-}
-
-nav ul li a:hover::before {
-  width: 100%;
-}
-
-.resumeBtn {
-  color: black;
-  font-weight: 600;
-  height: 50px;
-  width: 150px;
-  border-radius: 15px;
-  border: none;
-  background-color: #3586ff;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: 0.3s ease-in-out;
-}
-nav a {
-  /* color: #fff; */
-  text-decoration: none;
-  /* font-size: 25px; */
+@media (max-width: 769px) {
+  .logo {
+    font-family: "Allura", cursive;
+    padding: 0 20px;
+    font-weight: 600;
+    color: #3586ff;
+    font-size: 50px;
+  }
+  nav{
+    display: none;
+  }
+  header .hamburger {
+    height: 40px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav .resumeBtn{
+    display: none;
+  }
 }

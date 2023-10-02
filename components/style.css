@@ -86,3 +86,17 @@ main {
 ::-webkit-scrollbar-thumb:hover {
   background: #3586ff;
 }
+
+/* ------------------------------------------------ */
+@media screen and (max-width: 768px) {
+  header {
+    height: 10vh;
+    width: 100%;
+    background-color: #fff;
+    position: sticky;
+    /* top: 0px; */
+  }
+  main {
+    width: 100vw;
+  }
+}
